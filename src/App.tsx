@@ -19,7 +19,7 @@ function App() {
     setAlertState(true);
   }
 
-  const handleClose = (event: React.SyntheticEvent | Event, reason?: string) => {
+  const handleClose = (_: any, reason?: string) => {
     if (reason === 'clickaway') {
       return;
     }
